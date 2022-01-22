@@ -15,3 +15,7 @@ app.get('/', (req, res) =>{
     res.send('Mi respuesta desde express')
 })
 
+app.get('/servicios', (req, res) =>{
+    res.send('pagina de servicios')
+})
+
