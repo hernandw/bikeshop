@@ -7,6 +7,3 @@ app.listen(PORT, ()=>{
     console.log(`Servidor encendido on port: ${PORT}`);
 });
 
-app.get('/', (req, res)=>{
-    res.send('Servidor Activo')
-})
