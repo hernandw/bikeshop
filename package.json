@@ -5,6 +5,7 @@
   "main": "app.js",
   "dependencies": {
     "dotenv": "^14.2.0",
+    "ejs": "^3.1.6",
     "express": "^4.17.2",
     "pg": "^8.7.1",
     "pg-hstore": "^2.3.4"
@@ -14,7 +15,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./index"
+    "dev": "nodemon ./index",
+    "start": "node ./index"
   },
   "keywords": [],
   "author": "Williams Hernandez curso 0028",
